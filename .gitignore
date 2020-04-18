@@ -22,3 +22,12 @@ console/
 
 # Ignore .env files as they are personal
 /.env
+
+# Docker
+/docker/.env
+/docker/docker-compose.override.yml
+/docker/mariadb-init/*
+
+# Database
+*.sql
+*.sql.gz

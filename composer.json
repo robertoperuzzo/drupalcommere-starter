@@ -12,15 +12,22 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/drupalcommerce/commerce_base"
         }
     ],
     "require": {
         "composer/installers": "^1.7",
         "cweagans/composer-patches": "~1.0",
+        "drupal/admin_toolbar": "^2.2",
         "drupal/adminimal_admin_toolbar": "~1.9",
         "drupal/adminimal_theme": "~1.4",
         "drupal/bootstrap": "^3.17",
         "drupal/captcha": "^1.0",
+        "drupal/commerce": "^2.17",
+        "drupal/commerce_demo": "^1.0",
         "drupal/config_ignore": "~2.1",
         "drupal/config_installer": "~1.8",
         "drupal/config_split": "~1.4",
@@ -39,9 +46,13 @@
         "drupal/recaptcha": "^2.4",
         "drupal/redirect": "~1.5",
         "drupal/redis": "^1.4",
+        "drupal/search_api": "^1.16",
         "drupal/simple_sitemap": "~3.0",
         "drupal/sitemap": "~1.5",
+        "drupal/swiftmailer": "^1.0@beta",
+        "drupal/token": "^1.6",
         "drupal/twig_tweak": "~2.1",
+        "drupalcommerce/commerce_base": "dev-8.x-1.x",
         "drush/drush": "^10.1",
         "platformsh/config-reader": "^2.3"
     },
